@@ -1,0 +1,23 @@
+<?php
+	}
+	if(isset($_POST['Registrasi'])){
+			$nis = $_POST['nis'];
+			$nama = $_POST['nama'];
+			$tgl_lahir = $_POST['tgl_lahir'];
+			$password1 = $_POST['password'];
+			$email = $_POST['email'];
+				if(!empty($nama) &&!empty($password1))
+		{
+				$sql = "UPDATE input_siswa_ipa SET password='".$password1."', nama='".$nama."', tanggal_lahir='".$tgl_lahir."', email='".$email."' where nis='".$nis."'";
+				if (mysqli_query($conn, $sql)) 
+			{
+					echo "Record updated successfully";
+			} else{
+					echo "Error updating record: ";
+				}
+		}else{
+					echo"data harus diisi";
+				}
+	}
+mysqli_close($conn);
+?>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset_kelas" value="name:kode_kelas;datatype:string,name:nama_kelas;datatype:string,name:kode_guru;datatype:string" />
+	<infoitem key="UD_Recordset_siswa" value="name:nis;datatype:string,name:nama;datatype:string,name:tempat_lahir;datatype:string,name:tanggal_lahir;datatype:date,name:alamat;datatype:string,name:sekolah_asal;datatype:string,name:jenis_kelamin;datatype:string,name:agama;datatype:string,name:hp;datatype:string,name:kode_keluarga;datatype:string,name:kode_kelas;datatype:string,name:kode_sikap;datatype:string,name:kode_ekstra;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:nis;datatype:string,name:nama;datatype:string,name:tempat_lahir;datatype:string,name:tanggal_lahir;datatype:date,name:alamat;datatype:string,name:sekolah_asal;datatype:string,name:jenis_kelamin;datatype:string,name:agama;datatype:string,name:hp;datatype:string,name:kode_keluarga;datatype:string,name:kode_kelas;datatype:string,name:kode_sikap;datatype:string,name:kode_ekstra;datatype:string" />
+</info>

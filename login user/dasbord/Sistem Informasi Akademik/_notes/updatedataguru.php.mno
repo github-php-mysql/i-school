@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:kode_guru;datatype:string,name:nama;datatype:string,name:nip;datatype:string,name:jabatan;datatype:string,name:jenis_kelamin;datatype:string,name:hp;datatype:string,name:alamat;datatype:string" />
+</info>
